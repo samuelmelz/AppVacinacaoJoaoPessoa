@@ -239,6 +239,7 @@ class MesmoAppBar extends StatelessWidget implements PreferredSizeWidget {
             height: 22,
           ),
         ),
+        SizedBox(width: 1),
         IconButton(
           onPressed: () {},
           icon: Image.asset(
@@ -248,8 +249,13 @@ class MesmoAppBar extends StatelessWidget implements PreferredSizeWidget {
             height: 22,
           ),
         ),
-        Icon(Icons.subscriptions),
-        SizedBox(width: 30),
+        SizedBox(width: 3),
+        IconButton(
+          onPressed: () {},
+          icon: Icon(Icons.subscriptions),
+          color: Colors.white,
+        ),
+        SizedBox(width: 10),
       ],
     );
   }

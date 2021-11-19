@@ -68,8 +68,8 @@ class _EditarCadastroFimState extends State<EditarCadastroFim> {
 
   @override
   Widget build(BuildContext context) {
-    double phoneWidth = MediaQuery.of(context).size.width;
-    double phoneHeight = MediaQuery.of(context).size.height;
+/*     double phoneWidth = MediaQuery.of(context).size.width;
+    double phoneHeight = MediaQuery.of(context).size.height; */
 
     return Scaffold(
       appBar: MesmoAppBar(),

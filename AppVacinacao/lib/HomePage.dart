@@ -105,6 +105,9 @@ class HomePageState extends State<HomePage> {
                     elevation: 0,
                     padding: EdgeInsets.only(
                         left: 10, right: 10, top: 30, bottom: 30),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   ),
                   label: Icon(
                     Icons.date_range,
@@ -133,6 +136,9 @@ class HomePageState extends State<HomePage> {
                     elevation: 0,
                     padding: EdgeInsets.only(
                         left: 10, right: 13, top: 30, bottom: 30),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   ),
                   label: Icon(
                     Icons.pin_drop,
@@ -161,6 +167,9 @@ class HomePageState extends State<HomePage> {
                     elevation: 0,
                     padding: EdgeInsets.only(
                         left: 10, right: 13, top: 30, bottom: 30),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
                   ),
                   label: Icon(
                     Icons.equalizer,
